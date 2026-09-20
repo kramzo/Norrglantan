@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Source Sans 3", Arial, sans-serif;
 }
 
 img {
@@ -58,14 +58,33 @@ img {
 
 /*hero-innehåll*/
 .hero {
-  background-color: #cec49e;
-  color: #1c1a0a;
+  margin: 0;
+  padding: 0;
+  background-color: #3F3C24;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 4%;
+  text-transform: uppercase;
 }
 
 .hero-content {
+  padding: 16px 20px;
+  font-size: 18px;
+  letter-spacing: 4%;
+  gap: 16px;
   text-align: center;
 }
 
+/*Intro*/
+.intro {
+ background-color: #F3ECD4;
+
+}
 /*Aktiviteter*/
 .activities {
   padding: 32px;
