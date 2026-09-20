@@ -103,6 +103,10 @@ h1 {
   letter-spacing: 1%;
 }
 
+button {
+  background-color: #AF7436;
+}
+
 /*Aktiviteter*/
 .activities {
   padding: 32px;
