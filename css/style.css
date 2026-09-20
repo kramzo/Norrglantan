@@ -14,13 +14,28 @@ img {
 header {
   display: grid;
   grid-template-columns: 1fr;
-padding: 6px 30px 6px;  
   background-color: #1c1a0a;
   color: #ffffff;
 }
 
-.nav {
-  background-color:#cec49e;
+/*NAVIGERING*/
+.site-nav ul {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+
+.site-nav li {
+    border-bottom: 1px solid #c8bea1;
+}
+
+.site-nav a {
+  display: block;
+  padding: 8px;
+  color: #454331;
+  background-color: #f4edd5;
+  text-align: left;
+  text-decoration: none;
 }
 
 /*hero-innehåll*/
