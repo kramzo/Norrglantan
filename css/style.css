@@ -60,12 +60,11 @@ img {
 .hero-container {
   margin: 0;
   gap: 18px;
-  background-color: #3F3C24;
-  color: #FFFFFF;
+  background-color: #3f3c24;
+  color: #ffffff;
 }
 
 .hero-image {
-
 }
 
 h1 {
@@ -83,7 +82,7 @@ h1 {
 
 .hero-content {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
   gap: 16px;
   font-size: 18px;
@@ -97,10 +96,10 @@ h1 {
   display: flex;
   flex-direction: column;
   margin: 0;
- padding: 16px 23px;
- gap:16px;
- background-color: #F3ECD4;
- color: #3D3A23;
+  padding: 16px 23px;
+  gap: 16px;
+  background-color: #f3ecd4;
+  color: #3d3a23;
 }
 
 .intro h2 {
@@ -122,8 +121,8 @@ h1 {
 }
 
 button {
-  background-color: #AF7436;
-  color:#ffffff;
+  background-color: #af7436;
+  color: #ffffff;
   padding: 9px 18px;
   font-weight: bold;
   font-size: 15px;
@@ -136,16 +135,34 @@ button {
 }
 
 /*Aktiviteter*/
+
+/*Container*/
 .activities {
-  padding: 32px;
-}
-
-.card-container h3 {
   margin: 0;
-  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  padding: 32px 24px;
+  color: #3d3a23;
+  font-size: 18px;
 }
 
-.card-container {
+.activities h2 {
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 4%;
+  text-transform: uppercase;
+}
+
+.card-content h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.card-content {
+  padding: 15px 20px;
   display: grid;
   grid-template-columns: 1fr;
   gap: 30px;
@@ -153,7 +170,15 @@ button {
   color: #1c1a0a;
 }
 
+.card img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
 .card {
+  padding: 
   background-color: #cec49e;
   color: #1c1a0a;
 }
