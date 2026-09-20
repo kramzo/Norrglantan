@@ -82,9 +82,18 @@ h1 {
 
 /*Intro*/
 .intro {
+ margin: 0;
+ padding: 0;
  background-color: #F3ECD4;
-
 }
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 4%;
+}
+
 /*Aktiviteter*/
 .activities {
   padding: 32px;
