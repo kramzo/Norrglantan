@@ -17,12 +17,19 @@ img {
 
 .logo {
   display: flex;
-  color: #ffffff;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 30px;
 }
 
 .logo img {
   width: 34px;
   height: 34px;
+}
+
+.logo p {
+  margin: 0;
+  color: #ffffff;
 }
 
 /*NAVIGERING*/
