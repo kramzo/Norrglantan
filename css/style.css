@@ -24,14 +24,21 @@ padding: 6px 30px;
 
 .cards {
   display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
   padding: 78px 32px 32px 32px;
   background-color: #ffffff;
   color: #1c1a0a;
 }
 
 .card {
-  padding: 23px 28px 23px 0px;
-  margin: 32px;
+  padding: 24px;
   background-color: #cec49e;
   color: #1c1a0a;
+}
+
+.card img {
+    width: 100%;
+  height: auto;
+  display: block;
 }
