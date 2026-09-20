@@ -107,6 +107,8 @@ button {
   background-color: #AF7436;
   color:#ffffff;
   padding: 0px 9px;
+  border: none;
+  border-radius: 4px;
 }
 
 /*Aktiviteter*/
