@@ -15,6 +15,16 @@ img {
   background-color: #1c1a0a;
 }
 
+.logo {
+  display: flex;
+  color: #ffffff;
+}
+
+.logo img {
+  width: 34px;
+  height: 34px;
+}
+
 /*NAVIGERING*/
 .site-nav ul {
   margin: 0;
