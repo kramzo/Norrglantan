@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 img {
@@ -12,9 +12,15 @@ img {
 }
 
 header {
-padding: 6px 30px;  
+  display: grid;
+  grid-template-columns: 1fr;
+padding: 6px 30px 6px;  
   background-color: #1c1a0a;
   color: #ffffff;
+}
+
+.nav {
+  background-color:#cec49e;
 }
 
 .hero {
