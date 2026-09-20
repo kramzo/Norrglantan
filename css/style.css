@@ -1,46 +1,18 @@
-/* Basic reset and layout styles */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  background: #757c31;
-  color: #263326;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff
 }
 
-a {
-  color: #2f6b3c;
-  text-decoration: none;
+
+header {
+  content: 5px 30px 5px;
+  background-color: #1C1A0A;
 }
 
-a:hover {
-  text-decoration: underline;
+section {
+  background-color:#ffffff
 }
 
-img {
-  display: block;
-  max-width: 100%;
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 0 1rem;
-}
-
-button {
-  background: #2f6b3c;
-  border: 0;
-  border-radius: 4px;
-  color: #fff;
-  cursor: pointer;
-  padding: 0.75rem 1rem;
-}
-
-button:hover {
-  background: #24542f;
+article, nav {
+ background-color: #CEC49E;
 }
