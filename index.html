@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Norrgläntan</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -14,7 +20,7 @@
       <p>Norrgläntan</p>
 
       <!--Navigering-->
-      <nav aria-label="Huvudnavigering">
+      <nav aria-label="Huvudnavigering" class="nav">
         <ul>
           <li><a href="#">Upptäck</a></li>
           <li><a href="#">Aktiviteter</a></li>
@@ -28,12 +34,15 @@
       <!--Bild och text högst upp-->
       <section class="hero">
         <img src="images/hero.jpg" alt="Natur i Norrgläntan" />
-        <h1>Naturen väntar i Norrgläntan</h1>
-        <p>
-          Upptäck vidsträckta skogar, stilla sjöar och storslagna vyer. I
-          Norrgläntan finns plats för både äventyr och avkoppling.
-        </p>
-        <a href="#">Upptäck Norrgläntan</a>
+
+        <div class="hero-content">
+          <h1>Naturen väntar i Norrgläntan</h1>
+          <p>
+            Upptäck vidsträckta skogar, stilla sjöar och storslagna vyer. I
+            Norrgläntan finns plats för både äventyr och avkoppling.
+          </p>
+          <a href="#">Upptäck Norrgläntan</a>
+        </div>
       </section>
 
       <!--Introduktionstext-->
@@ -55,7 +64,7 @@
       <section class="activities">
         <h2>Upplev Norrgläntan</h2>
 
-        <div class="cards">
+        <div class="card-container">
           <article class="card">
             <img src="images/vandra.jpg" alt="Vandringsspår i Norrgläntan" />
             <h3>Vandra</h3>
