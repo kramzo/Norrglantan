@@ -94,9 +94,13 @@ h1 {
 
 /*Intro*/
 .intro {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
  padding: 16px 23px;
  gap:16px;
  background-color: #F3ECD4;
+ color: #3D3A23;
 }
 
 .intro h2 {
@@ -110,6 +114,7 @@ h1 {
 }
 
 .intro p {
+  margin: 0;
   font-size: 18px;
   font-weight: medium;
   text-align: center;
@@ -133,6 +138,11 @@ button {
 /*Aktiviteter*/
 .activities {
   padding: 32px;
+}
+
+.card-container h3 {
+  margin: 0;
+  font-weight: bold;
 }
 
 .card-container {
