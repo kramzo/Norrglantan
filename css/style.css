@@ -23,6 +23,7 @@ padding: 6px 30px 6px;
   background-color:#cec49e;
 }
 
+/*hero-innehåll*/
 .hero {
   background-color: #cec49e;
   color: #1c1a0a;
@@ -32,6 +33,7 @@ padding: 6px 30px 6px;
   text-align: center;
 }
 
+/*Aktiviteter*/
 .activities {
  padding: 32px;
  
@@ -50,6 +52,8 @@ padding: 6px 30px 6px;
   color: #1c1a0a;
 }
 
-.footer {
+/*Footer innehåll*/
+footer {
   background-color: #3F3C24;
+  color:#ffffff;
 }
