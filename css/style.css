@@ -252,10 +252,12 @@ footer {
 }
 
 .footer-brand {
+  grid-column: 1 / -1;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
+  text-align: center;
 }
 
 .footer-brand img {
@@ -273,6 +275,9 @@ footer {
 
 .footer-brand p {
   margin: 0;
+  font: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
 }
 
 .footer-contact h4, footer-links h4 {
@@ -280,3 +285,9 @@ footer {
   font-size: 1rem;
   font-weight: 700;
 }
+
+footer a {
+  color:#ffffff;
+  text-decoration: none;
+}
+
