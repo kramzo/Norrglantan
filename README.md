@@ -1,12 +1,11 @@
-# Hello
+# Norrgläntan – Laboration 3
 
-## Read me for the project :D
+## Introduktion till CSS och layout
 
-- list
-  - hi
-- list
-- list
+Mockup i Figma finns här: 
+[Keis version av Norrgläntan, mockup](https://www.figma.com/files/team/1682434800576176840/folder/658398965?fuid=1682434797653284682)
 
-1. hi
-2. hello
-3. howdy
+Sidan är publicerad på:
+
+- [GitHub Pages](https://kramzo.github.io/Norrglantan/)
+- [Norrgläntan, Repository](https://github.com/kramzo/Norrglantan)
