@@ -372,8 +372,8 @@ MEDIA QUERIES: SKÄRMANPASSNINGAR
   }
 
   .hero-content {
-    background-color: #1c1a0a;
-    border-radius: 4px;
+    background-color: rgb(28, 26, 10, 0.7);
+    border-radius: 8px;
     position: absolute;
     bottom: 10rem;
     right: 50rem;
