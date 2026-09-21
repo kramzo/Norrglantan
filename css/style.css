@@ -95,39 +95,35 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
-  font-size: 18px;
-  padding: 18px 26px;
-  letter-spacing: 4%;
+  gap: 1rem;
+  font-size: 1.125rem;
+  padding: 1.125rem 1.625rem;
   text-align: center;
 }
 
-/*Intro*/
+/*Introduktion*/
 .intro {
   display: flex;
   flex-direction: column;
-  margin: 0;
-  padding: 16px 23px;
-  gap: 16px;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
   background-color: #f3ecd4;
   color: #3d3a23;
+  text-align: center;
 }
 
 .intro h2 {
-  padding: 0;
   margin: 0;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  letter-spacing: 4%;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 
 .intro p {
   margin: 0;
-  font-size: 18px;
-  font-weight: medium;
-  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 400;
   letter-spacing: 1%;
 }
 
