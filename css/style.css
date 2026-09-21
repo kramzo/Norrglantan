@@ -132,8 +132,6 @@ button {
 }
 
 /*Aktiviteter*/
-
-/*Container*/
 .activities {
   margin: 0;
   display: flex;
@@ -175,9 +173,12 @@ button {
 }
 
 .card {
-  padding: 8px 20px 15px;
   background-color: #cec49e;
   color: #1c1a0a;
+}
+
+.card-text {
+ padding: 0.75rem 1.25rem 1rem;
 }
 
 /*Footer innehåll*/
