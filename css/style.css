@@ -179,6 +179,9 @@ button {
 }
 
 .card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5 rem;
  padding: 0.75rem 1.25rem 1rem;
 }
 
