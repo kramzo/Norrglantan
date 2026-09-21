@@ -224,8 +224,6 @@ img {
 }
 
 .visit h2 {
-  display: flex;
-  flex-direction: column;
   margin: 0;
   font-size: 1.25rem;
   font-weight: 700;
@@ -234,10 +232,12 @@ img {
 }
 
 .visit p {
-  display: flex;
-  flex-direction: column;
   margin: 0;
   font-size: 1.125rem;
+}
+
+.visit .button {
+  align-self: center;
 }
 
 
