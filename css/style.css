@@ -62,11 +62,13 @@ img {
   cursor: pointer;
 }
 
-.site-nav a:hover{ /* hover visar var muskpekaren är */
+.site-nav a:hover {
+  /* hover visar var muskpekaren är */
   background-color: #cec49e;
 }
 
-.site-nav a:focus-visible { /* visar var trangentbordsfokus är */
+.site-nav a:focus-visible {
+  /* visar var trangentbordsfokus är */
   background-color: #cec49e;
   outline: 3px solid #af7436; /* ritar fokuslinjen */
   outline-offset: -3px; /* flyttar fokuslinjen ut eller in */
@@ -124,21 +126,34 @@ img {
   margin: 0;
   font-size: 1.125rem;
   font-weight: 400;
-  letter-spacing: 1%;
 }
 
-button {
+/* KNAPPARNA*/
+.button {
+  display: inline-block;
   background-color: #af7436;
   color: #ffffff;
-  padding: 9px 18px;
-  font-weight: bold;
-  font-size: 15px;
+  padding: 0.5625rem 1.125rem;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  line-height: 1.2;
+  letter-spacing: 0.06em;
   text-align: center;
-  letter-spacing: 1px;
   text-transform: uppercase;
+  text-decoration: none;
   border: none;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   cursor: pointer;
+}
+
+.button:hover {
+  background-color: #CE9458;
+}
+
+.button:focus-visible {
+  background-color: #CE9458;
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
 }
 
 /*Aktiviteter*/
