@@ -147,11 +147,11 @@ img {
 }
 
 .button:hover {
-  background-color: #CE9458;
+  background-color: #ce9458;
 }
 
 .button:focus-visible {
-  background-color: #CE9458;
+  background-color: #ce9458;
   outline: 3px solid #ffffff;
   outline-offset: 3px;
 }
@@ -215,8 +215,8 @@ img {
 .visit {
   display: flex;
   flex-direction: column;
-  background-color:#f3ecd4;
-  color:#3d3a23;
+  background-color: #f3ecd4;
+  color: #3d3a23;
   text-align: center;
   gap: 1.125rem;
   padding: 2.125rem 1.625rem;
@@ -240,10 +240,43 @@ img {
   align-self: center;
 }
 
-
-/*Footer innehåll*/
+/*FOOTER*/
 footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
   background-color: #3f3c24;
   color: #ffffff;
+  padding: 2rem 1.5rem;
+  margin: 0;
+}
 
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-brand img {
+  max-width: 60px;
+}
+
+.footer-brand h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+
+}
+
+.footer-brand p {
+  margin: 0;
+}
+
+.footer-contact h4, footer-links h4 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
 }
