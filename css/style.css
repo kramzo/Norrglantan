@@ -14,7 +14,7 @@ img {
   width: 100%;
 }
 
-/*HEADER*/
+/*HEADER OCH LOGOTYP*/
 .site-header {
   background-color: #1c1a0a;
 }
@@ -22,19 +22,20 @@ img {
 .logo {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 6px 30px;
+  gap: 0.75rem;
+  padding: 0.375rem 1.875rem;
 }
 
 .logo img {
-  width: 34px;
-  height: 34px;
+  width: 2.125rem;
+  height: 2.125rem;
 }
 
 .logo p {
   margin: 0;
-  font-weight: bold;
-  letter-spacing: 3px;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   color: #ffffff;
 }
