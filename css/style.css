@@ -139,15 +139,16 @@ button {
   align-items: center;
   text-align: center;
   gap: 30px;
-  padding: 32px 24px;
+  padding: 2rem 1.5rem;
   color: #3d3a23;
-  font-size: 18px;
+  font-size: 1.125rem;
+  text-align: center;
 }
 
 .activities h2 {
   margin: 0;
   font-size: 1.25rem;
-  letter-spacing: 4%;
+  letter-spacing: 0,04em;
   text-transform: uppercase;
 }
 
@@ -160,7 +161,7 @@ button {
 .card-container {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 30px;
+  gap: 1.875rem;
   width: 100%;
   background-color: #ffffff;
   color: #1c1a0a;
