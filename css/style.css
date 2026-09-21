@@ -64,9 +64,6 @@ img {
   color: #ffffff;
 }
 
-.hero-image {
-}
-
 h1 {
   margin: 0;
   font-size: 20px;
@@ -156,13 +153,13 @@ button {
   text-transform: uppercase;
 }
 
-.card-content h3 {
+.card-container h3 {
+  margin: 0;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.card-content {
-  padding: 15px 20px;
+.card-container {
   display: grid;
   grid-template-columns: 1fr;
   gap: 30px;
@@ -178,7 +175,7 @@ button {
 }
 
 .card {
-  padding: 
+  padding: 8px 20px 15px;
   background-color: #cec49e;
   color: #1c1a0a;
 }
