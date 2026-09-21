@@ -5,11 +5,15 @@
 body {
   margin: 0;
   font-family: "Source Sans 3", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 img {
+  display: block;
   width: 100%;
 }
+
 /*HEADER*/
 .site-header {
   background-color: #1c1a0a;
